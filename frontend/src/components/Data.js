@@ -21,4 +21,4 @@ const Data = () => {
     </section>
   );
 };
-export default memo(Data);
+export default (Data);
