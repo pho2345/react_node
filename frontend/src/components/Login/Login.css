@@ -1,0 +1,123 @@
+.modal__login-fixed{
+    position: fixed;
+  height: 100%;
+  width: 100%;
+  top:0;
+  background:rgb(0,0,0,0.6);
+  }
+  .modal__login-inner i{
+    position: fixed;
+    right: 30px;
+    top: 18px;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  .modal__login{    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    width: 400px;
+    height: 450px;
+    box-shadow: 5px 5px 9px 5px rgba(0, 0, 0, 0.05);
+    animation: modalShow 0.6s linear;
+    border-radius: 20px;
+  }
+  .modal__login-inner{
+  }
+  .modal__login-inner p{
+    color: black;
+    font-size: 30px;
+    margin-left: 30px;
+    margin-top: 28px;
+  }
+  #username,#password{
+    margin-left: 30px;
+    height: 40px;
+    padding: 5px 10px;
+    border: none;
+  }
+  #username{
+    margin-top: 20px;
+    display: block;
+    width: 82%;
+    margin-bottom: 20px;
+    border: none;
+  background: none;
+  outline: none;
+    border-bottom: solid 1px gainsboro;
+  }
+  #password{
+    display: block;
+    width: 82%;
+    border: none;
+  background: none;
+  outline: none;
+    border-bottom: solid 1px gainsboro;
+  }
+  .btn__login{
+    height: 40px;
+    width: 78%;
+    background-color: #4daf54;
+    margin: 40px 25px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    color: #ffffff;
+  }
+  .btn__login:hover{
+    opacity: 0.8;
+  }
+  .btn__login:focus{
+        outline: none;
+  }
+  .signwith{
+    font-size:15px;
+    text-align: center;
+    margin-top: -20px;
+  }
+  .login-with-social{
+   text-align: center;
+   margin-top: 10px;
+  }
+  
+  .fa-facebook-f,
+  .fa-google,
+  .fa-twitter{
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    color: white;
+    cursor: pointer;
+    padding: 3px;
+    margin-left: 5px;
+  }
+  .fa-facebook-f{
+    background-color: #00008B;
+  }
+  .fa-google{
+    background-color: #DC143C;
+  }
+  .fa-twitter{
+    background-color: #00BFFF;
+  }
+  .login__create p,.login__create a{
+    display: inline-block;
+    font-size: 15px;
+    text-align: center;
+    margin-top: 20px;
+  }
+  .login__create p{
+    margin-left: 30px;
+  }
+  @keyframes modalShow{
+  from{
+    top: -200px;
+    opacity: 0;
+  }
+  to{
+    top: 34%;
+    opacity: 1;
+  }
+  }

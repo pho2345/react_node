@@ -68,7 +68,13 @@ export default function index() {
           </Breadcrumb>
           <Content
             className="site-layout-background"
+<<<<<<< HEAD
           
+=======
+            style={{
+                  padding : 30,
+                 }} 
+>>>>>>> f2620a8 (hai)
           >
             <div className="site-card-wrapper">
               <Row gutter={10}>
@@ -94,6 +100,10 @@ export default function index() {
                     <Meta title="Europe Street beat" description="www.instagram.com" />
                   </Card>
                 </Col>
+<<<<<<< HEAD
+=======
+
+>>>>>>> f2620a8 (hai)
                 <Col span={8}>
                   <Card
                     hoverable
@@ -105,6 +115,92 @@ export default function index() {
                     <Meta title="Europe Street beat" description="www.instagram.com" />
                   </Card>
                   </Col>
+<<<<<<< HEAD
+=======
+
+                  <Col span={8}>
+                  <Card
+                    hoverable
+                    style={{
+                      width: 240,
+                    }}
+                    cover={<img alt="example" src="https://os.alipayobjects.com/rmsportal/QBnOOoLaAfKPirc.png" />}
+                  >
+                    <Meta title="Europe Street beat" description="www.instagram.com" />
+                  </Card>
+                  </Col>
+
+
+                  <Col span={8}>
+                  <Card
+                    hoverable
+                    style={{
+                      width: 240,
+                    }}
+                    cover={<img alt="example" src="https://os.alipayobjects.com/rmsportal/QBnOOoLaAfKPirc.png" />}
+                  >
+                    <Meta title="Europe Street beat" description="www.instagram.com" />
+                  </Card>
+                  </Col>
+
+
+
+                  <Col span={8}>
+                  <Card
+                    hoverable
+                    style={{
+                      width: 240,
+                    }}
+                    cover={<img alt="example" src="https://os.alipayobjects.com/rmsportal/QBnOOoLaAfKPirc.png" />}
+                  >
+                    <Meta title="Europe Street beat" description="www.instagram.com" />
+                  </Card>
+                  </Col>
+
+
+
+
+                  <Col span={8}>
+                  <Card
+                    hoverable
+                    style={{
+                      width: 240,
+                    }}
+                    cover={<img alt="example" src="https://os.alipayobjects.com/rmsportal/QBnOOoLaAfKPirc.png" />}
+                  >
+                    <Meta title="Europe Street beat" description="www.instagram.com" />
+                  </Card>
+                  </Col>
+
+
+
+
+                  <Col span={8}>
+                  <Card
+                    hoverable
+                    style={{
+                      width: 240,
+                    }}
+                    cover={<img alt="example" src="https://os.alipayobjects.com/rmsportal/QBnOOoLaAfKPirc.png" />}
+                  >
+                    <Meta title="Europe Street beat" description="www.instagram.com" />
+                  </Card>
+                  </Col>
+
+
+
+                  <Col span={8}>
+                  <Card
+                    hoverable
+                    style={{
+                      width: 240,
+                    }}
+                    cover={<img alt="example" src="https://os.alipayobjects.com/rmsportal/QBnOOoLaAfKPirc.png" />}
+                  >
+                    <Meta title="Europe Street beat" description="www.instagram.com" />
+                  </Card>
+                  </Col>
+>>>>>>> f2620a8 (hai)
                  
                
                   <Col span={8}>
@@ -134,7 +230,11 @@ export default function index() {
               </Row>
             </div>
           </Content>
+<<<<<<< HEAD
           <Pagination defaultCurrent={1} total={50} />;
+=======
+          <Pagination style={{display : 'flex' , margin: 'auto',}} defaultCurrent={1} total={50} />;
+>>>>>>> f2620a8 (hai)
         </Layout>
       </Layout>
     </Layout>

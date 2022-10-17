@@ -1,0 +1,15 @@
+/* .container-fluid{
+   display: inline-block;
+   position: absolute;
+   top: 20%;
+   left: 30%;
+   translate: (-50px,-50px);
+   text-align: center;
+}
+.homeWidget{
+} */
+*{
+   margin:0;
+   padding:0;
+   box-sizing:border-box;
+}
